@@ -15,7 +15,7 @@ Simple Template to a Web Applcation
 
     gem install swat
     
-    swat [web_app]
+    gem unpack swat [web_app]
 
     cd [web_app]
     
@@ -30,5 +30,9 @@ The web template should be up and running.
 It comes with rspec testing setup in the box.
 
     spec ./spec
+    
+## Troubleshooting 
+
+[support@jackhq.com](mailto:support@jackhq.com)
     
     

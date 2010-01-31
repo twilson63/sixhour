@@ -15,7 +15,7 @@ begin
     gemspec.add_dependency('sinatra', '= 0.9.4')
     gemspec.add_dependency('haml', '>= 2.2.17')
     gemspec.executables = ['rackup']
-    gemspec.files = FileList['spec/*.rb'] + FileList['public/**/*.*'] + FileList['views/**/*.haml'] + ['Gemfile','app.rb','config.ru','readme.md', 'LICENSE', 'VERSION.yml']
+    gemspec.files = FileList['lib/*.rb'] + FileList['spec/*.*'] + FileList['public/**/*.*'] + FileList['views/**/*.haml'] + ['Gemfile','app.rb','config.ru','readme.md', 'LICENSE', 'VERSION.yml']
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

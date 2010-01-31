@@ -5,17 +5,18 @@
 
 Gem::Specification.new do |s|
   s.name = %q{swat}
-  s.version = "0.0.2"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
   s.date = %q{2010-01-31}
-  s.default_executable = %q{swat}
+  s.default_executable = %q{rackup}
   s.description = %q{gem install swat && swat mywebapp}
   s.email = %q{tom@jackhq.com}
-  s.executables = ["swat"]
+  s.executables = ["rackup"]
   s.files = [
-    "app.rb",
+    "Gemfile",
+     "app.rb",
      "config.ru",
      "public/javascripts/jquery-1.4.1.min.js",
      "public/stylesheets/960.css",
