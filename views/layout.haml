@@ -7,3 +7,6 @@
   %body
     %h1 Simple Web Application Template (SWAT)
     = yield
+    
+    - ['jquery-1.4.1.min'].each do |js|
+      %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
