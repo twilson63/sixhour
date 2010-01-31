@@ -1,6 +1,4 @@
-# SWAT
-
-Sinatra Web Application Template
+# SixHour
 
 Simple Template to a Web Applcation
 
@@ -13,11 +11,13 @@ Simple Template to a Web Applcation
 
 ## Install
 
-    gem install swat
+    gem install sixhour
     
-    gem unpack swat [web_app]
+    gem unpack sixhour 
 
-    cd [web_app]
+    mv sixhour-X.X.X [myapp]
+    
+    cd myapp
     
     gem bundle
     
