@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     
-    gemspec.name = "swat"
+    gemspec.name = "sixhour"
     gemspec.summary = "Simple Web Application Template"
-    gemspec.description = "gem install swat && swat mywebapp"
+    gemspec.description = "gem install sixhour"
     gemspec.email = "tom@jackhq.com"
-    gemspec.homepage = "http://github.com/twilson63/swat"
+    gemspec.homepage = "http://github.com/twilson63/sixhour"
     gemspec.authors = ["Tom Wilson"]
 
     gemspec.add_dependency('sinatra', '= 0.9.4')

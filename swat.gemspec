@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{swat}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
@@ -18,12 +18,14 @@ Gem::Specification.new do |s|
     "Gemfile",
      "app.rb",
      "config.ru",
+     "lib/swat.rb",
      "public/javascripts/jquery-1.4.1.min.js",
      "public/stylesheets/960.css",
      "public/stylesheets/reset.css",
      "public/stylesheets/text.css",
      "readme.md",
      "spec/app_spec.rb",
+     "spec/spec.opts",
      "spec/spec_helper.rb",
      "views/index.haml",
      "views/layout.haml"
